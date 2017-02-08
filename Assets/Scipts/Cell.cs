@@ -8,13 +8,13 @@ namespace RoverExpertAI
 	{
         public bool BlocksMove
         {
-            get { return obstacle != null ? obstacle.BlocksMove : false; }
+            get { return Obstacle != null ? Obstacle.BlocksMove : false; }
         }
         public bool BlocksSonar
         {
-            get { return obstacle != null ? obstacle.BlocksSonar : false; }
+            get { return Obstacle != null ? Obstacle.BlocksSonar : false; }
         }
 
-        [SerializeField] private Obstacle obstacle;
+        public Obstacle Obstacle { get; set; }
     }
 }
