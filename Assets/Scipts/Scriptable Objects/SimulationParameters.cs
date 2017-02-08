@@ -8,8 +8,8 @@ namespace RoverExpertAI
         "Data/Simulation Parameters", order = 4)]
 	public class SimulationParameters : ScriptableObject
 	{
-        public int width = 30;
-        public int height = 30;
+        public int width;
+        public int height;
 
         public Vector2 startPos;
         public Vector2 goalPos;
