@@ -3,7 +3,10 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Floor
+  - Obstacle
+  - Unit
   layers:
   - Default
   - TransparentFX
@@ -40,4 +43,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Floor
+    uniqueID: 2042717287
+    locked: 0
+  - name: Obstacle
+    uniqueID: 3081502785
+    locked: 0
+  - name: Unit
+    uniqueID: 3465556415
     locked: 0
