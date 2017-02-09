@@ -52,7 +52,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 858c78f051ec04a4bb08c526a3573840, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  boardMgr: {fileID: 114424092141227986}
+  boardManager: {fileID: 114424092141227986}
+  rover: {fileID: 1657797126755094, guid: 5bf46fb37ac7ff44d9a4af938a7b6d29, type: 2}
   defaultSimulationParams: {fileID: 11400000, guid: 9962f361cc013794ebd6c2055cf7cc60,
     type: 2}
 --- !u!114 &114424092141227986

@@ -18,3 +18,4 @@ MonoBehaviour:
   obstacleDensity: 0.25
   obstacleTypes:
   - {fileID: 1627498897631332, guid: 8bcba13b9d44c4c4cb2dcee779c3ea91, type: 2}
+  floorTiles: {fileID: 1487936859775986, guid: 964eddfb952ff1941933787121ac1742, type: 2}

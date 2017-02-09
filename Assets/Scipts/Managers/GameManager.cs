@@ -16,6 +16,9 @@ namespace RoverExpertAI
         // Component references.
         [SerializeField] private BoardManager boardManager;
 
+        // Prefab references.
+        [SerializeField] private GameObject rover;
+
         [SerializeField] private SimulationParameters defaultSimulationParams;  
         private SimulationParameters customSimulationParams;
 
@@ -38,6 +41,8 @@ namespace RoverExpertAI
         private void SetupGameManager()
         {
             customSimulationParams = Instantiate(defaultSimulationParams);
+
+            boardManager.SetupBoard(customSimulationParams);
         }
     }
 }
